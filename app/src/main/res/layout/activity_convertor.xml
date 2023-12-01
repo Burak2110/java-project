@@ -7,12 +7,182 @@
     tools:context=".Convertor">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
+        android:id="@+id/text1"
+        android:layout_width="85dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="Decimal"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="85dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="Byte"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="85dp"
+        android:layout_height="47dp"
+        android:gravity="center"
+        android:text="Celcius"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="337dp"
+        android:layout_height="42dp"
+        android:text=""
+        android:hint="Sonuc :"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="337dp"
+        android:layout_height="42dp"
+        android:hint="Sonuc :"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="337dp"
+        android:layout_height="42dp"
+        android:hint="Sonuc :"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <EditText
+        android:id="@+id/textInput1"
+        android:layout_width="246dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="Degerinizi Giriniz:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <EditText
+        android:id="@+id/textInput2"
+        android:layout_width="246dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Degerinizi Giriniz:"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <EditText
+        android:id="@+id/textInput3"
+        android:layout_width="246dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Degerinizi Giriniz:"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="326dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <RadioGroup
+        android:id="@+id/radioGrup"
+        android:layout_width="239dp"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827">
+
+        <RadioButton
+            android:id="@+id/fahrenayt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenayt" />
+
+        <RadioButton
+            android:id="@+id/kelvin"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="Kelvin" />
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

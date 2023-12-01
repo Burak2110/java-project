@@ -6,13 +6,77 @@
     android:layout_height="match_parent"
     tools:context=".Sms">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Telefon Numarasını Girin"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:text=""
+        android:textSize="20dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <EditText
+        android:id="@+id/messageText"
+        android:layout_width="275dp"
+        android:layout_height="139dp"
+        android:ems="10"
+        android:hint="Mesajınızı Girin"
+        android:inputType="textMultiLine"
+        android:text=""
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.691"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="110dp"
+        android:layout_height="63dp"
+        android:text="Gönder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="57dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Tel"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="62dp"
+        android:layout_height="38dp"
+        android:text="Mesaj"
+        android:textSize="18dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
 </androidx.constraintlayout.widget.ConstraintLayout>
